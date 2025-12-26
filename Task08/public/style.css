@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px auto; /* Центрируем всё содержимое страницы */
+  max-width: 1200px; /* Ограничиваем максимальную ширину для удобства */
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+h1 {
+  text-align: center; /* Центрируем заголовок */
+  margin-bottom: 30px;
+}
+
+.filter {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  text-align: center; /* Центрируем фильтр */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center; /* Выравнивание текста в ячейках по центру */
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Стили для колонки "Действия" */
+.actions {
+  width: 1%; /* Заставляет колонку сжаться до минимально возможной ширины */
+  white-space: nowrap; /* Запрещает перенос ссылок на новую строку */
+  text-align: center;
+}
+
+.actions a {
+  margin: 0 8px; /* Расстояние между ссылками */
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 0.9em;
+}
+
+.actions a.delete {
+  color: #cc0000;
+}
+
+.btn-add {
+  display: inline-block;
+  background: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  background: #fee;
+  padding: 10px;
+  border: 1px solid red;
+  margin-bottom: 15px;
+  text-align: center;
+}
